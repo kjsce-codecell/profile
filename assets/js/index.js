@@ -61,7 +61,7 @@ var test;
 
 setInterval(updateGradient,10);
 var getData = (function($){
-	var URL = "https://api.github.com/repos/KJSCE-Codecell/profile/commits?per_page=100"
+	var URL = "https://api.github.com/repos/KJSCE-Codecell/profile/commits?per_page=200"
 	$.get(URL,function(data,status){
 			console.log(data);
 			test = data;
