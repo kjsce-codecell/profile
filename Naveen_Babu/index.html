@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Portfolio</title>
+    <script src="https://kit.fontawesome.com/464d734462.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="boot.css">
+    <!-- Animation On Scroll website -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="main.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="neu-head">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-primary" href="#">NB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-black "></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#">Contact Me</a>
+                        </li>
+
+                    </ul>
+                    <div class="custom-control custom-switch" data-mode="light">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1"
+                            onclick="changeMode(this)">
+                        <label class="custom-control-label" for="customSwitch1"></label>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <!-- Introduction -->
+    <div class="neu-intro">
+        <div class="container" data-aos="fade-right">
+            <div class="row">
+                <div class="col-6">
+                    <h3>Hello! <span class="wave">👋</span></h3>
+                </div>
+            </div>
+            <div class="row into">
+                <div class="col-lg-5 col-md-8 col-sm-8 col-xs-5">I'm <span class="name">J V Naveen Babu</span>, a
+                    Frontend Web
+                    Specialist
+                    and
+                    Full
+                    stack
+                    Web developer enthusiast. Focused on building beautiful interface & experiences. 👨‍💻
+
+                </div>
+
+            </div>
+
+            <button class="btn btn-outline-primary resume-btn">Resume</button>
+        </div>
+    </div>
+
+    <!-- About Me  -->
+    <div class="container" data-aos="fade-left">
+        <div class="row">
+            <div class="col-5 my-5">
+                <img src="Naveen.jpg" class="img-circle float-left my-img" alt="..." width="200" height="200">
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 my-2">
+                <h3 class="text-primary">About Me</h3>
+                <hr style="width: 9%; background: red;">
+                <p>I'm J V Naveen Babu pursuing my Btech (UG) in Computer Science and Engineering from
+                    <span class="clg-name">Gitam Deemed to
+                        be University,Visakhapatnam</span>. I am good in Web technology and Full stack web developer
+                    enthusiast.</p>
+                <p>I prefer working with a team.
+                    As different members contribute different ideas, it paves the road for more productive result.
+                    My
+                    <span class="strenght">strength</span> is to work independently, quick learner, good leadership
+                    skills, team work & helping
+                    tendency. </p>
+
+                <p><span class="out-off">When I'm not in front of a computer</span>. I'm probably listen
+                    music , play
+                    Outdoor games and make web developement post for instagram page. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education timeline  -->
+    <div class="container my-5" data-aos="fade-right">
+        <h3 class="text-primary">Education</h3>
+        <hr style="width: 8%; background: red;">
+        <div class="box">
+            <ul class="timeline">
+                <li>
+                    <div class="item" data-aos="fade-left">
+                        <span><i class="far fa-calendar-alt text-dark lead"> 2018 - 2022</i></span>
+                        <h3 class="text-primary">Bachelor of Technology</h3>
+                        <p>Gitam Deemed to University, Visakhapatnam</p>
+                        <small class="text-muted">GIT</small>
+                        <p>GPA: 9.45</p>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item" data-aos="fade-left">
+                        <span><i class="far fa-calendar-alt text-dark lead"> 2016 - 2018</i></span>
+                        <h3 class="text-primary">Intermediate</h3>
+                        <p>Narayana Junior College NAD-X, Visakhapatnam</p>
+                        <small class="text-muted">BIEAP</small>
+                        <p>Percentage: 9.15</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item" data-aos="fade-left">
+                        <span><i class="far fa-calendar-alt text-dark lead"> 2015 - 2016</i></span>
+                        <h3 class="text-primary">Senior Secondary</h3>
+                        <p>Kendriya Vidyala No.2 AFS Jodhpur, Rajasthan</p>
+                        <small class="text-muted">CBSE</small>
+                        <p>CGPA: 8.42</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- skills  -->
+    <div class="container my-5" data-aos="fade-right">
+        <h3 class="text-primary">Skills</h3>
+        <hr style="width: 4%; background: red;">
+        <div class="skills">
+            <div class="head" data-aos="fade-right">
+                <h5>WEB DEVELOPEMENT</h5>
+            </div>
+            <div class="loader l1" data-aos="fade-right"></div><span data-aos="fade-right">92%</span>
+
+            <div class="head mt-4" data-aos="fade-right">
+                <h5>WORDPRESS</h5>
+            </div>
+            <div class="loader l2" data-aos="fade-right"></div><span data-aos="fade-right">95%</span>
+
+
+            <div class="head mt-4" data-aos="fade-right">
+                <h5>PROGRAMMING</h5>
+            </div>
+            <div class="loader l3" data-aos="fade-right"></div><span data-aos="fade-right">87%</span>
+
+
+            <div class="head mt-4" data-aos="fade-right">
+                <h5>UI/UX DESIGNING</h5>
+            </div>
+            <div class="loader l4" data-aos="fade-right"></div><span data-aos="fade-right">83%</span>
+
+            <div class="row my-5" data-aos="fade-right">
+                <div class="col-8 offset-2">
+                    <p class="lead">I've picked up quite a skills during self teaching my self and aim to improve
+                        these
+                        skills everyday. Here are a few of the technologies that I have experienced with:</p>
+                </div>
+            </div>
+
+
+            <div class="container skills">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card" style="width: 18rem;" data-aos="fade-right">
+                            <div class="card-body">
+                                <h4 class="card-title">LANGUAGES</h4>
+                                <p class="card-text">C / C++</p>
+                                <p class="card-text">Python</p>
+                                <p class="card-text">Java</p>
+                                <p class="card-text">HTML</p>
+                                <p class="card-text">CSS</p>
+                                <p class="card-text">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card" style="width: 18rem;height: 19.2rem;" data-aos="fade-left">
+                            <div class="card-body">
+                                <h4 class="card-title">FRAMEWORKS</h4>
+                                <p class="card-text">React</p>
+                                <p class="card-text">Node</p>
+                                <p class="card-text">Wordpress</p>
+                                <p class="card-text">Django</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-5" data-aos="fade-right">
+                    <div class="col-sm-12 col-md-6 col-lg-6 ">
+                        <div class="card" style="width: 18rem;height: 9.1rem;" data-aos="fade-right">
+                            <div class="card-body">
+                                <h4 class="card-title">TOOLS</h4>
+                                Git & Github
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card" style="width: 18rem;" data-aos="fade-left">
+                            <div class="card-body">
+                                <h4 class="card-title">DESIGN</h4>
+                                <p class="card-text">Adobe XD</p>
+                                <p class="card-text">Figma</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificates  -->
+    <div class="container" data-aos="fade-right">
+        <h3 class="text-primary">Certificates</h3>
+        <hr style="width: 10%; background: red;">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Web Development Internship </h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - Verzeo <cite title="Source Title">Edutech</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6 class="text-primary">Engineering: Undergraduate & Masters Virtual Internship
+                                Platform
+                            </h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - Microsoft <cite title="Source Title">InsideSherpa</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Front-End Web UI Framework and Tools: Bootstrap 4</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - The Hong Kong University <cite title="Source Title">of science and
+                                    technology</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd Row  -->
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Python Data Structures</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - University Of <cite title="Source Title">Michigan</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Python for Data Science and AI</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - IBM Specialization <cite title="Source Title">coursera</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Front-End Web UI Framework and Tools: Bootstrap 4</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - The Hong Kong University <cite title="Source Title">of science and
+                                    technology</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd Row  -->
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Front-End Web UI Framework and Tools: Bootstrap 4</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - The Hong Kong University <cite title="Source Title">of science and
+                                    technology</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Front-End Web UI Framework and Tools: Bootstrap 4</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - The Hong Kong University <cite title="Source Title">of science and
+                                    technology</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="#">
+                            <h6>Front-End Web UI Framework and Tools: Bootstrap 4</h6>
+                        </a>
+                        <a href="#"><small class="text-muted">
+                                - The Hong Kong University <cite title="Source Title">of science and
+                                    technology</cite>
+                            </small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Services  -->
+    <div class="container my-5">
+        <h3 class="text-primary">Fields I have Knowledge</h3>
+        <hr style="width: 10%; background: red;">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;" data-aos="fade-right">
+                    <img src="./images/wd.png" class="card-img-top img-fluid" alt="web-dev" style="height:13rem;">
+                    <div class=" card-body">
+                        <h5 class="card-title text-primary" style="font-weight:bold;">WEB DEVELOPEMENT</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;" data-aos="fade-left">
+                    <img src="./images/prgm.png" class="card-img-top img-fluid" alt="web-dev" style="height:13rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary" style="font-weight:bold;">PROGRAMMER</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;" data-aos="fade-right">
+                    <img src="./images/ui-ux.png" class="card-img-top img-fluid rounded" alt="web-dev"
+                        style="height:13rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary" style="font-weight:bold;">UI/UX DESIGNER</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;" data-aos="fade-left">
+                    <img src="./images/seo.png" class="card-img-top img-fluid" alt="web-dev" style="height:13rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary" style="font-weight:bold;">SEO OPTIMIZATION</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me  -->
+    <div class="container my-5">
+        <h3 class="text-primary" data-aos="fade-right">Get in touch</h3>
+        <hr style="width: 10%; background: red;">
+        <small id="emailHelp" class="form-text text-muted" data-aos="fade-right">Available for Internship |
+            Freelancing
+            and
+            collaboration</small>
+        <div class="form">
+            <form class="my-3" data-aos="fade-right">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="form-group">
+                            <label for="exampleInputName">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+                                placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputName">Purpose</label>
+                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+                                placeholder="purpose">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="icons text-center">
+                <a href="https://www.instagram.com/web_dev_.aspirants/" class="btn outer"><i
+                        class="fa fa-instagram text-primary"></i></a>
+                <a href="https://www.linkedin.com/in/j-v-naveen-babu/" class="btn outer"><i
+                        class="fa fa-linkedin text-primary"></i></a>
+                <a href="https://twitter.com/JVNaveenBabu1" class="btn outer"><i
+                        class="fa fa-twitter text-primary"></i></a>
+                <a href="https://github.com/jvnaveenbabu" class="btn outer"><i
+                        class="fab fa-github text-primary"></i></a>
+                <a href="mailto:jvnaveenbabu264@gmail.com?subject=subject" class="btn outer"><i
+                        class="fas fa-envelope text-primary"></i></a>
+
+            </div>
+
+            <p class="text-center text-muted mt-2" style="font-size:14px ;">Designed And Developed by J V Naveen Babu
+                &copy;
+                2020. Made
+                with ❤</p>
+        </div>
+    </footer>
+
+    <!-- Animation On Scroll  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Bootstrap Js  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
